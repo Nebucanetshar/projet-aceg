@@ -38,3 +38,4 @@ c:\Users\user\source\visualStudioCode\projetAceg\grpc\obj\Debug\net8.0\refint\gr
 c:\Users\user\source\visualStudioCode\projetAceg\grpc\obj\Debug\net8.0\grpc.pdb
 c:\Users\user\source\visualStudioCode\projetAceg\grpc\obj\Debug\net8.0\grpc.genruntimeconfig.cache
 c:\Users\user\source\visualStudioCode\projetAceg\grpc\obj\Debug\net8.0\ref\grpc.dll
+C:\Users\user\source\visualStudioCode\projetAceg\grpc\obj\Debug\net8.0\grpc.sourcelink.json

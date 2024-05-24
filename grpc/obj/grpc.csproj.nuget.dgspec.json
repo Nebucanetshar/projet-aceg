@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\user\\source\\visualStudioCode\\projetAceg\\grpc\\grpc.csproj": {}
+    "C:\\Users\\user\\source\\visualStudioCode\\projetAceg\\grpc\\grpc.csproj": {}
   },
   "projects": {
-    "c:\\Users\\user\\source\\visualStudioCode\\projetAceg\\assembly\\assembly.csproj": {
+    "C:\\Users\\user\\source\\visualStudioCode\\projetAceg\\assembly\\assembly.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\user\\source\\visualStudioCode\\projetAceg\\assembly\\assembly.csproj",
+        "projectUniqueName": "C:\\Users\\user\\source\\visualStudioCode\\projetAceg\\assembly\\assembly.csproj",
         "projectName": "assembly",
-        "projectPath": "c:\\Users\\user\\source\\visualStudioCode\\projetAceg\\assembly\\assembly.csproj",
+        "projectPath": "C:\\Users\\user\\source\\visualStudioCode\\projetAceg\\assembly\\assembly.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\user\\source\\visualStudioCode\\projetAceg\\assembly\\obj\\",
+        "outputPath": "C:\\Users\\user\\source\\visualStudioCode\\projetAceg\\assembly\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -61,6 +61,10 @@
               "target": "Package",
               "version": "[8.0.0, )",
               "autoReferenced": true
+            },
+            "fluxor.blazor.web.reduxDevTools": {
+              "target": "Package",
+              "version": "[5.9.1, )"
             }
           },
           "imports": [
@@ -94,14 +98,14 @@
         }
       }
     },
-    "c:\\Users\\user\\source\\visualStudioCode\\projetAceg\\grpc\\grpc.csproj": {
+    "C:\\Users\\user\\source\\visualStudioCode\\projetAceg\\grpc\\grpc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\user\\source\\visualStudioCode\\projetAceg\\grpc\\grpc.csproj",
+        "projectUniqueName": "C:\\Users\\user\\source\\visualStudioCode\\projetAceg\\grpc\\grpc.csproj",
         "projectName": "grpc",
-        "projectPath": "c:\\Users\\user\\source\\visualStudioCode\\projetAceg\\grpc\\grpc.csproj",
+        "projectPath": "C:\\Users\\user\\source\\visualStudioCode\\projetAceg\\grpc\\grpc.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\user\\source\\visualStudioCode\\projetAceg\\grpc\\obj\\",
+        "outputPath": "C:\\Users\\user\\source\\visualStudioCode\\projetAceg\\grpc\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -119,8 +123,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "c:\\Users\\user\\source\\visualStudioCode\\projetAceg\\assembly\\assembly.csproj": {
-                "projectPath": "c:\\Users\\user\\source\\visualStudioCode\\projetAceg\\assembly\\assembly.csproj"
+              "C:\\Users\\user\\source\\visualStudioCode\\projetAceg\\assembly\\assembly.csproj": {
+                "projectPath": "C:\\Users\\user\\source\\visualStudioCode\\projetAceg\\assembly\\assembly.csproj"
               }
             }
           }
@@ -138,6 +142,34 @@
             "Grpc.AspNetCore": {
               "target": "Package",
               "version": "[2.57.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL.Design": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "grpc.tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.64.0, )"
+            },
+            "microsoft.entityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "microsoft.entityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "microsoft.extensions.dependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             }
           },
           "imports": [
