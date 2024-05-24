@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xzbpkv30pUFj5fTz/Dvw8xRg29vyYeyL/bxmdwJJ4v5ZgcUcSM5Kca7UsaO3Bq0rUQ0Ke1aXfZW7r2E8c6HFBw==",
+  "dgSpecHash": "s8229tmNfp0FRQvyR2QRg6EVZLc71tyP7lc64OiZLZ4TgAuBrD8LCaMGqOyxppt9eoZINU0g+OsgRdDamPl5Xg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\source\\visualStudioCode\\projetAceg\\assembly\\assembly.csproj",
+  "projectFilePath": "c:\\Users\\user\\source\\visualStudioCode\\projetAceg\\assembly\\assembly.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\fluxor\\5.9.1\\fluxor.5.9.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\fluxor.blazor.web\\5.9.1\\fluxor.blazor.web.5.9.1.nupkg.sha512",
