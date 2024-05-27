@@ -8153,11 +8153,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\source\\visualStudioCode\\projetAceg\\grpc\\grpc.csproj",
+      "projectUniqueName": "C:\\Users\\user\\source\\VisualStudioCode\\projetAceg\\grpc\\grpc.csproj",
       "projectName": "grpc",
-      "projectPath": "C:\\Users\\user\\source\\visualStudioCode\\projetAceg\\grpc\\grpc.csproj",
+      "projectPath": "C:\\Users\\user\\source\\VisualStudioCode\\projetAceg\\grpc\\grpc.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\source\\visualStudioCode\\projetAceg\\grpc\\obj\\",
+      "outputPath": "C:\\Users\\user\\source\\VisualStudioCode\\projetAceg\\grpc\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8175,8 +8175,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\user\\source\\visualStudioCode\\projetAceg\\assembly\\assembly.csproj": {
-              "projectPath": "C:\\Users\\user\\source\\visualStudioCode\\projetAceg\\assembly\\assembly.csproj"
+            "C:\\Users\\user\\source\\VisualStudioCode\\projetAceg\\assembly\\assembly.csproj": {
+              "projectPath": "C:\\Users\\user\\source\\VisualStudioCode\\projetAceg\\assembly\\assembly.csproj"
             }
           }
         }

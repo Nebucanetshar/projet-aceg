@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\user\\source\\visualStudioCode\\projetAceg\\assembly\\assembly.csproj": {}
+    "C:\\Users\\user\\source\\VisualStudioCode\\projetAceg\\assembly\\assembly.csproj": {}
   },
   "projects": {
-    "c:\\Users\\user\\source\\visualStudioCode\\projetAceg\\assembly\\assembly.csproj": {
+    "C:\\Users\\user\\source\\VisualStudioCode\\projetAceg\\assembly\\assembly.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\user\\source\\visualStudioCode\\projetAceg\\assembly\\assembly.csproj",
+        "projectUniqueName": "C:\\Users\\user\\source\\VisualStudioCode\\projetAceg\\assembly\\assembly.csproj",
         "projectName": "assembly",
-        "projectPath": "c:\\Users\\user\\source\\visualStudioCode\\projetAceg\\assembly\\assembly.csproj",
+        "projectPath": "C:\\Users\\user\\source\\VisualStudioCode\\projetAceg\\assembly\\assembly.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\user\\source\\visualStudioCode\\projetAceg\\assembly\\obj\\",
+        "outputPath": "C:\\Users\\user\\source\\VisualStudioCode\\projetAceg\\assembly\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
