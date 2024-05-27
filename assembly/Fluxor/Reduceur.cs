@@ -1,6 +1,17 @@
-﻿namespace assembly;
+﻿using assembly.fluxor.Action;
+using assembly.Wrapper.Response;
+using Fluxor;
 
-public class Reduceur
+namespace assembly.Fluxor;
+
+public static class CounterReduceur
 {
-
+    [ReducerMethod]
+    public static CounterState ExecuteState(CounterState state, ActionOutput action)
+    {
+        return state with 
+        {
+            response = action.ResponseServer
+        };
+    }
 }

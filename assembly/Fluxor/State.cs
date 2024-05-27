@@ -1,6 +1,15 @@
-﻿namespace assembly;
+﻿using assembly.ViewModel;
+using Fluxor;
 
-public class State
+namespace assembly.Fluxor;
+
+[FeatureState]
+public record class CounterState
 {
+    public ResultResponseViewModel ?response {get;set;}
+    public CounterState()
+    {
+        response = new ResultResponseViewModel();
+    }
 
 }
