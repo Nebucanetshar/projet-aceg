@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9B59jO86DT+4Vd1r7f+YNFgngt6cpJ8fyuVzX5UBP4Dehe+ycKKo/p2aETrh3j66yayJKET94zwIPEjRrTXjYQ==",
+  "dgSpecHash": "NR3rxB512t9IxsAyzlBoeI3mMMYv3XvKJuc5e53EXDvaqaRTWdjIF6JB0rWuJa/j7PCVkAyvcYxg8qiJxLXwug==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\source\\VisualStudioCode\\projetAceg\\grpc\\grpc.csproj",
+  "projectFilePath": "C:\\Users\\user\\source\\visualStudioCode\\projetAceg\\grpc\\grpc.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\fluxor\\5.9.1\\fluxor.5.9.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\fluxor.blazor.web\\5.9.1\\fluxor.blazor.web.5.9.1.nupkg.sha512",

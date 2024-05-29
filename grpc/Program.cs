@@ -3,14 +3,10 @@ using grpc.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
-
 builder.Services.AddGrpc();
 
 var app = builder.Build();
 //builder.Services.AddDbContext<AppDbContext>(options => builder.Configuration.GetConnectionString("npgsql"));
-
-
-
 
 app.MapGrpcService<GreeterService>();
 app.MapGrpcService<AcegServices>();
