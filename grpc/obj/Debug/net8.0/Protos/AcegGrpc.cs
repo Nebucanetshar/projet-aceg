@@ -46,9 +46,9 @@ namespace grpc {
     }
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::grpc.DoCreateRequest> __Marshaller_aceg_DoCreateRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::grpc.DoCreateRequest.Parser));
+    static readonly grpc::Marshaller<global::grpc.CreateRequest> __Marshaller_aceg_CreateRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::grpc.CreateRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::grpc.DoCreateResponse> __Marshaller_aceg_DoCreateResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::grpc.DoCreateResponse.Parser));
+    static readonly grpc::Marshaller<global::grpc.CreateResponse> __Marshaller_aceg_CreateResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::grpc.CreateResponse.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::grpc.ReadRequest> __Marshaller_aceg_ReadRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::grpc.ReadRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
@@ -67,42 +67,42 @@ namespace grpc {
     static readonly grpc::Marshaller<global::grpc.UpdateResponse> __Marshaller_aceg_UpdateResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::grpc.UpdateResponse.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Method<global::grpc.DoCreateRequest, global::grpc.DoCreateResponse> __Method_DoCreate = new grpc::Method<global::grpc.DoCreateRequest, global::grpc.DoCreateResponse>(
+    static readonly grpc::Method<global::grpc.CreateRequest, global::grpc.CreateResponse> __Method_DoCreate = new grpc::Method<global::grpc.CreateRequest, global::grpc.CreateResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
         "DoCreate",
-        __Marshaller_aceg_DoCreateRequest,
-        __Marshaller_aceg_DoCreateResponse);
+        __Marshaller_aceg_CreateRequest,
+        __Marshaller_aceg_CreateResponse);
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Method<global::grpc.ReadRequest, global::grpc.ReadResponse> __Method_Read = new grpc::Method<global::grpc.ReadRequest, global::grpc.ReadResponse>(
+    static readonly grpc::Method<global::grpc.ReadRequest, global::grpc.ReadResponse> __Method_DoRead = new grpc::Method<global::grpc.ReadRequest, global::grpc.ReadResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
-        "Read",
+        "DoRead",
         __Marshaller_aceg_ReadRequest,
         __Marshaller_aceg_ReadResponse);
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Method<global::grpc.GetAllRequest, global::grpc.GetAllResponse> __Method_List = new grpc::Method<global::grpc.GetAllRequest, global::grpc.GetAllResponse>(
+    static readonly grpc::Method<global::grpc.GetAllRequest, global::grpc.GetAllResponse> __Method_DoList = new grpc::Method<global::grpc.GetAllRequest, global::grpc.GetAllResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
-        "List",
+        "DoList",
         __Marshaller_aceg_GetAllRequest,
         __Marshaller_aceg_GetAllResponse);
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Method<global::grpc.DeleteRequest, global::grpc.DeleteResponse> __Method_Delete = new grpc::Method<global::grpc.DeleteRequest, global::grpc.DeleteResponse>(
+    static readonly grpc::Method<global::grpc.DeleteRequest, global::grpc.DeleteResponse> __Method_DoDelete = new grpc::Method<global::grpc.DeleteRequest, global::grpc.DeleteResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
-        "Delete",
+        "DoDelete",
         __Marshaller_aceg_DeleteRequest,
         __Marshaller_aceg_DeleteResponse);
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Method<global::grpc.UpdateRequest, global::grpc.UpdateResponse> __Method_Update = new grpc::Method<global::grpc.UpdateRequest, global::grpc.UpdateResponse>(
+    static readonly grpc::Method<global::grpc.UpdateRequest, global::grpc.UpdateResponse> __Method_DoUpdate = new grpc::Method<global::grpc.UpdateRequest, global::grpc.UpdateResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
-        "Update",
+        "DoUpdate",
         __Marshaller_aceg_UpdateRequest,
         __Marshaller_aceg_UpdateResponse);
 
@@ -117,31 +117,31 @@ namespace grpc {
     public abstract partial class DoBase
     {
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::grpc.DoCreateResponse> DoCreate(global::grpc.DoCreateRequest request, grpc::ServerCallContext context)
+      public virtual global::System.Threading.Tasks.Task<global::grpc.CreateResponse> DoCreate(global::grpc.CreateRequest request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
 
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::grpc.ReadResponse> Read(global::grpc.ReadRequest request, grpc::ServerCallContext context)
+      public virtual global::System.Threading.Tasks.Task<global::grpc.ReadResponse> DoRead(global::grpc.ReadRequest request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
 
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::grpc.GetAllResponse> List(global::grpc.GetAllRequest request, grpc::ServerCallContext context)
+      public virtual global::System.Threading.Tasks.Task<global::grpc.GetAllResponse> DoList(global::grpc.GetAllRequest request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
 
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::grpc.DeleteResponse> Delete(global::grpc.DeleteRequest request, grpc::ServerCallContext context)
+      public virtual global::System.Threading.Tasks.Task<global::grpc.DeleteResponse> DoDelete(global::grpc.DeleteRequest request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
 
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::grpc.UpdateResponse> Update(global::grpc.UpdateRequest request, grpc::ServerCallContext context)
+      public virtual global::System.Threading.Tasks.Task<global::grpc.UpdateResponse> DoUpdate(global::grpc.UpdateRequest request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -155,10 +155,10 @@ namespace grpc {
     {
       return grpc::ServerServiceDefinition.CreateBuilder()
           .AddMethod(__Method_DoCreate, serviceImpl.DoCreate)
-          .AddMethod(__Method_Read, serviceImpl.Read)
-          .AddMethod(__Method_List, serviceImpl.List)
-          .AddMethod(__Method_Delete, serviceImpl.Delete)
-          .AddMethod(__Method_Update, serviceImpl.Update).Build();
+          .AddMethod(__Method_DoRead, serviceImpl.DoRead)
+          .AddMethod(__Method_DoList, serviceImpl.DoList)
+          .AddMethod(__Method_DoDelete, serviceImpl.DoDelete)
+          .AddMethod(__Method_DoUpdate, serviceImpl.DoUpdate).Build();
     }
 
     /// <summary>Register service method with a service binder with or without implementation. Useful when customizing the service binding logic.
@@ -168,11 +168,11 @@ namespace grpc {
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     public static void BindService(grpc::ServiceBinderBase serviceBinder, DoBase serviceImpl)
     {
-      serviceBinder.AddMethod(__Method_DoCreate, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::grpc.DoCreateRequest, global::grpc.DoCreateResponse>(serviceImpl.DoCreate));
-      serviceBinder.AddMethod(__Method_Read, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::grpc.ReadRequest, global::grpc.ReadResponse>(serviceImpl.Read));
-      serviceBinder.AddMethod(__Method_List, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::grpc.GetAllRequest, global::grpc.GetAllResponse>(serviceImpl.List));
-      serviceBinder.AddMethod(__Method_Delete, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::grpc.DeleteRequest, global::grpc.DeleteResponse>(serviceImpl.Delete));
-      serviceBinder.AddMethod(__Method_Update, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::grpc.UpdateRequest, global::grpc.UpdateResponse>(serviceImpl.Update));
+      serviceBinder.AddMethod(__Method_DoCreate, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::grpc.CreateRequest, global::grpc.CreateResponse>(serviceImpl.DoCreate));
+      serviceBinder.AddMethod(__Method_DoRead, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::grpc.ReadRequest, global::grpc.ReadResponse>(serviceImpl.DoRead));
+      serviceBinder.AddMethod(__Method_DoList, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::grpc.GetAllRequest, global::grpc.GetAllResponse>(serviceImpl.DoList));
+      serviceBinder.AddMethod(__Method_DoDelete, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::grpc.DeleteRequest, global::grpc.DeleteResponse>(serviceImpl.DoDelete));
+      serviceBinder.AddMethod(__Method_DoUpdate, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::grpc.UpdateRequest, global::grpc.UpdateResponse>(serviceImpl.DoUpdate));
     }
 
   }

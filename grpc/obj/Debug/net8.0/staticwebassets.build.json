@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6PZdXYW7QnPFET60pkSlQXnBNvnGJmifImVWMFnwqtM=",
+  "Hash": "NoYo5bDqWys2o7SzsqXzlx21n4ksjSQYXE+JhdbLY0c=",
   "Source": "grpc",
   "BasePath": "_content/grpc",
   "Mode": "Default",
@@ -11,10 +11,10 @@
       "Version": 2,
       "Source": "assembly",
       "GetPublishAssetsTargets": "ComputeFilesToPublish;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "_PublishingBlazorWasmProject=true;BuildProjectReferences=false;ResolveAssemblyReferencesFindRelatedSatellites=true;Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishProperties": "_PublishingBlazorWasmProject=true;BuildProjectReferences=false;ResolveAssemblyReferencesFindRelatedSatellites=true",
       "AdditionalPublishPropertiesToRemove": "NoBuild;RuntimeIdentifier;WebPublishProfileFile;TargetFramework",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildProperties": "",
       "AdditionalBuildPropertiesToRemove": "RuntimeIdentifier;SelfContained;WebPublishProfileFile;TargetFramework"
     }
   ],

@@ -24,28 +24,28 @@ namespace grpc {
     static AcegReflection() {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
-            "ChFQcm90b3MvYWNlZy5wcm90bxIEYWNlZyI1Cg9Eb0NyZWF0ZVJlcXVlc3QS",
-            "DQoFdGl0bGUYASABKAkSEwoLZGVzY3JpcHRpb24YAiABKAkiHgoQRG9DcmVh",
-            "dGVSZXNwb25zZRIKCgJpZBgBIAEoBSIZCgtSZWFkUmVxdWVzdBIKCgJpZBgB",
-            "IAEoBSI+CgxSZWFkUmVzcG9uc2USCgoCaWQYASABKAUSDQoFdGl0bGUYAiAB",
-            "KAkSEwoLZGVzY3JpcHRpb24YAyABKAkiDwoNR2V0QWxsUmVxdWVzdCIwCg5H",
-            "ZXRBbGxSZXNwb25zZRIeCgJpZBgBIAMoCzISLmFjZWcuUmVhZFJlc3BvbnNl",
-            "Ij8KDVVwZGF0ZVJlcXVlc3QSCgoCaWQYASABKAUSDQoFdGl0bGUYAiABKAkS",
-            "EwoLZGVzY3JpcHRpb24YAyABKAkiHAoOVXBkYXRlUmVzcG9uc2USCgoCaWQY",
-            "ASABKAUiGwoNRGVsZXRlUmVxdWVzdBIKCgJpZBgBIAEoBSIcCg5EZWxldGVS",
-            "ZXNwb25zZRIKCgJpZBgBIAEoBTKVAgoCRG8SOwoIRG9DcmVhdGUSFS5hY2Vn",
-            "LkRvQ3JlYXRlUmVxdWVzdBoWLmFjZWcuRG9DcmVhdGVSZXNwb25zZSIAEi8K",
-            "BFJlYWQSES5hY2VnLlJlYWRSZXF1ZXN0GhIuYWNlZy5SZWFkUmVzcG9uc2Ui",
-            "ABIzCgRMaXN0EhMuYWNlZy5HZXRBbGxSZXF1ZXN0GhQuYWNlZy5HZXRBbGxS",
-            "ZXNwb25zZSIAEjUKBkRlbGV0ZRITLmFjZWcuRGVsZXRlUmVxdWVzdBoULmFj",
-            "ZWcuRGVsZXRlUmVzcG9uc2UiABI1CgZVcGRhdGUSEy5hY2VnLlVwZGF0ZVJl",
+            "ChFQcm90b3MvYWNlZy5wcm90bxIEYWNlZyIzCg1DcmVhdGVSZXF1ZXN0Eg0K",
+            "BXRpdGxlGAEgASgJEhMKC2Rlc2NyaXB0aW9uGAIgASgJIhwKDkNyZWF0ZVJl",
+            "c3BvbnNlEgoKAmlkGAEgASgFIhkKC1JlYWRSZXF1ZXN0EgoKAmlkGAEgASgF",
+            "Ij4KDFJlYWRSZXNwb25zZRIKCgJpZBgBIAEoBRINCgV0aXRsZRgCIAEoCRIT",
+            "CgtkZXNjcmlwdGlvbhgDIAEoCSIPCg1HZXRBbGxSZXF1ZXN0IjAKDkdldEFs",
+            "bFJlc3BvbnNlEh4KAmlkGAEgAygLMhIuYWNlZy5SZWFkUmVzcG9uc2UiPwoN",
+            "VXBkYXRlUmVxdWVzdBIKCgJpZBgBIAEoBRINCgV0aXRsZRgCIAEoCRITCgtk",
+            "ZXNjcmlwdGlvbhgDIAEoCSIcCg5VcGRhdGVSZXNwb25zZRIKCgJpZBgBIAEo",
+            "BSIbCg1EZWxldGVSZXF1ZXN0EgoKAmlkGAEgASgFIhwKDkRlbGV0ZVJlc3Bv",
+            "bnNlEgoKAmlkGAEgASgFMpkCCgJEbxI3CghEb0NyZWF0ZRITLmFjZWcuQ3Jl",
+            "YXRlUmVxdWVzdBoULmFjZWcuQ3JlYXRlUmVzcG9uc2UiABIxCgZEb1JlYWQS",
+            "ES5hY2VnLlJlYWRSZXF1ZXN0GhIuYWNlZy5SZWFkUmVzcG9uc2UiABI1CgZE",
+            "b0xpc3QSEy5hY2VnLkdldEFsbFJlcXVlc3QaFC5hY2VnLkdldEFsbFJlc3Bv",
+            "bnNlIgASNwoIRG9EZWxldGUSEy5hY2VnLkRlbGV0ZVJlcXVlc3QaFC5hY2Vn",
+            "LkRlbGV0ZVJlc3BvbnNlIgASNwoIRG9VcGRhdGUSEy5hY2VnLlVwZGF0ZVJl",
             "cXVlc3QaFC5hY2VnLlVwZGF0ZVJlc3BvbnNlIgBCB6oCBGdycGNiBnByb3Rv",
             "Mw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::grpc.DoCreateRequest), global::grpc.DoCreateRequest.Parser, new[]{ "Title", "Description" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::grpc.DoCreateResponse), global::grpc.DoCreateResponse.Parser, new[]{ "Id" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::grpc.CreateRequest), global::grpc.CreateRequest.Parser, new[]{ "Title", "Description" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::grpc.CreateResponse), global::grpc.CreateResponse.Parser, new[]{ "Id" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::grpc.ReadRequest), global::grpc.ReadRequest.Parser, new[]{ "Id" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::grpc.ReadResponse), global::grpc.ReadResponse.Parser, new[]{ "Id", "Title", "Description" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::grpc.GetAllRequest), global::grpc.GetAllRequest.Parser, null, null, null, null, null),
@@ -61,16 +61,16 @@ namespace grpc {
   }
   #region Messages
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class DoCreateRequest : pb::IMessage<DoCreateRequest>
+  public sealed partial class CreateRequest : pb::IMessage<CreateRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<DoCreateRequest> _parser = new pb::MessageParser<DoCreateRequest>(() => new DoCreateRequest());
+    private static readonly pb::MessageParser<CreateRequest> _parser = new pb::MessageParser<CreateRequest>(() => new CreateRequest());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<DoCreateRequest> Parser { get { return _parser; } }
+    public static pb::MessageParser<CreateRequest> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -86,7 +86,7 @@ namespace grpc {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public DoCreateRequest() {
+    public CreateRequest() {
       OnConstruction();
     }
 
@@ -94,7 +94,7 @@ namespace grpc {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public DoCreateRequest(DoCreateRequest other) : this() {
+    public CreateRequest(CreateRequest other) : this() {
       title_ = other.title_;
       description_ = other.description_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
@@ -102,8 +102,8 @@ namespace grpc {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public DoCreateRequest Clone() {
-      return new DoCreateRequest(this);
+    public CreateRequest Clone() {
+      return new CreateRequest(this);
     }
 
     /// <summary>Field number for the "title" field.</summary>
@@ -133,12 +133,12 @@ namespace grpc {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
-      return Equals(other as DoCreateRequest);
+      return Equals(other as CreateRequest);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(DoCreateRequest other) {
+    public bool Equals(CreateRequest other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
@@ -224,7 +224,7 @@ namespace grpc {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(DoCreateRequest other) {
+    public void MergeFrom(CreateRequest other) {
       if (other == null) {
         return;
       }
@@ -288,16 +288,16 @@ namespace grpc {
   }
 
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class DoCreateResponse : pb::IMessage<DoCreateResponse>
+  public sealed partial class CreateResponse : pb::IMessage<CreateResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<DoCreateResponse> _parser = new pb::MessageParser<DoCreateResponse>(() => new DoCreateResponse());
+    private static readonly pb::MessageParser<CreateResponse> _parser = new pb::MessageParser<CreateResponse>(() => new CreateResponse());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<DoCreateResponse> Parser { get { return _parser; } }
+    public static pb::MessageParser<CreateResponse> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -313,7 +313,7 @@ namespace grpc {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public DoCreateResponse() {
+    public CreateResponse() {
       OnConstruction();
     }
 
@@ -321,15 +321,15 @@ namespace grpc {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public DoCreateResponse(DoCreateResponse other) : this() {
+    public CreateResponse(CreateResponse other) : this() {
       id_ = other.id_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public DoCreateResponse Clone() {
-      return new DoCreateResponse(this);
+    public CreateResponse Clone() {
+      return new CreateResponse(this);
     }
 
     /// <summary>Field number for the "id" field.</summary>
@@ -347,12 +347,12 @@ namespace grpc {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
-      return Equals(other as DoCreateResponse);
+      return Equals(other as CreateResponse);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(DoCreateResponse other) {
+    public bool Equals(CreateResponse other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
@@ -425,7 +425,7 @@ namespace grpc {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(DoCreateResponse other) {
+    public void MergeFrom(CreateResponse other) {
       if (other == null) {
         return;
       }

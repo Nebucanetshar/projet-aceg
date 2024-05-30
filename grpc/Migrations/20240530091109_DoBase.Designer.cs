@@ -11,8 +11,8 @@ using grpc.Data;
 namespace grpc.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240529134056_Base")]
-    partial class Base
+    [Migration("20240530091109_DoBase")]
+    partial class DoBase
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -26,19 +26,19 @@ namespace grpc.Migrations
 
             modelBuilder.Entity("grpc.Model.Items", b =>
                 {
-                    b.Property<int>("id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("integer");
 
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("id"));
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("description")
+                    b.Property<string>("Description")
                         .HasColumnType("text");
 
-                    b.Property<string>("title")
+                    b.Property<string>("Title")
                         .HasColumnType("text");
 
-                    b.HasKey("id");
+                    b.HasKey("Id");
 
                     b.ToTable("Items");
                 });

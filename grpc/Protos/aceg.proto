@@ -6,19 +6,19 @@ package aceg;
 
 service Do
 {
-    rpc DoCreate(DoCreateRequest) returns (DoCreateResponse){}
-    rpc Read(ReadRequest) returns (ReadResponse){}
-    rpc List(GetAllRequest) returns (GetAllResponse){}
-    rpc Delete(DeleteRequest) returns (DeleteResponse){}
-    rpc Update(UpdateRequest) returns (UpdateResponse){}
+    rpc DoCreate(CreateRequest) returns (CreateResponse){}
+    rpc DoRead(ReadRequest) returns (ReadResponse){}
+    rpc DoList(GetAllRequest) returns (GetAllResponse){}
+    rpc DoDelete(DeleteRequest) returns (DeleteResponse){}
+    rpc DoUpdate(UpdateRequest) returns (UpdateResponse){}
 }
 
-message DoCreateRequest{
+message CreateRequest{
     string title=1;
     string description=2;
 }
 
-message DoCreateResponse{
+message CreateResponse{
     int32 id=1;
 }
 
