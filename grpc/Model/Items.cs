@@ -1,9 +1,9 @@
-﻿namespace grpc;
+﻿namespace grpc.Model;
 
 public class Items
 {
-    public int id { get; set; }
-    public string ?title { get; set; }
-    public string ?description { get; set; }
+    public int Id { get; set; }
+    public string ?Title { get; set; }
+    public string ?Description { get; set; }
 
 }
