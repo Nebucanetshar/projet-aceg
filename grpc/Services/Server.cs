@@ -8,10 +8,11 @@ namespace grpc.Services;
 public class Server : Do.DoBase
 {
     private readonly AppDbContext _dbContext;
-
+    
     public Server(AppDbContext dbContext)
     {
         _dbContext = dbContext;
+       
     }
     #region Création
     public override async Task<CreateResponse>DoCreate(CreateRequest request, ServerCallContext context)
