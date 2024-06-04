@@ -1,6 +1,6 @@
 ﻿namespace assembly;
 
-public class CreateTodoRequest
+public class Request
 {
 
 }

@@ -1,21 +1,22 @@
 ﻿using assembly.Wrapper.Response;
+using assembly.ViewModel;
+//using grpc.Services;
+
 namespace assembly.Wrapper.ModelWrapper;
 
 public interface IgRpcCounterServiceClient 
 {
-    Task<ResponseWrapperViewModel<CounterViewModel>>CreateTodo(string arg);
+    Task<ResponseWrapperViewModel<CounterViewModel>>DoCreate(string arg);
 }
 
 public class gRpcCounterServiceClient
 {
-    // Task<ResponseWrapperViewModel<CounterViewModel>>CreateTodo(string arg)
-    // {
-    //     CreateTodoRequest request=new CreateTodoRequest();
-    //     var responseServer = await grpc.CreateTodo(request);
-    //     var responseEffet = ResponseWrapperViewModel<CounterViewModel>.Create(responseServer,dto => new CounterViewModel(dto));
+    public async Task<ResponseWrapperViewModel<CounterViewModel>>DoCreate(string arg)
+    {
+        CreateRequest request=new CreateRequest(); // CreateRequest provient du services gRpc
+        var responseServer = await Server.DoCreate(request); // Server également 
+        var responseEffet = ResponseWrapperViewModel<CounterViewModel>.Create(responseServer,dto => new CounterViewModel(dto));
         
-    //     await ProcessMessages(responseEffet);
-        
-    //     return responseEffet;
-    // }
+        return responseEffet;
+    }
 }
