@@ -1,7 +1,7 @@
 ﻿using assembly.Dto;
 using assembly.ViewModel;
 
-namespace assembly.Wrapper.Response;
+namespace common.Wrapper.Response;
 
 #region Interface
 public interface IResponseBase

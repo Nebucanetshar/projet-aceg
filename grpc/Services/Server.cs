@@ -3,6 +3,7 @@ using grpc.Model;
 using Grpc.Core;
 using Microsoft.EntityFrameworkCore;
 
+
 namespace grpc.Services;
 
 public class Server : Do.DoBase

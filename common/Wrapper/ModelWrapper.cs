@@ -1,6 +1,7 @@
-﻿using assembly.Wrapper.Response;
+﻿using assembly.ViewModel;
+using grpc.Service;
 
-namespace assembly.Wrapper.ModelWrapper;
+namespace common.Wrapper.ModelWrapper;
 
 public interface IgRpcCounterServiceClient 
 {

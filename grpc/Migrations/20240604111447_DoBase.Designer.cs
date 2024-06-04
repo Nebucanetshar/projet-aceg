@@ -11,7 +11,7 @@ using grpc.Data;
 namespace grpc.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240530091109_DoBase")]
+    [Migration("20240604111447_DoBase")]
     partial class DoBase
     {
         /// <inheritdoc />

@@ -1,5 +1,5 @@
-﻿using assembly.Wrapper.ModelWrapper;
-using assembly.fluxor.Action;
+﻿using assembly.fluxor.Action;
+using common.Wrapper.ModelWrapper;
 using Fluxor;
 
 
@@ -7,11 +7,11 @@ namespace assembly.fluxor;
 
 public class CounterEffet
 {
-    private IgRpcCounterServiceClient gRpcCounterServiceClient{get;set;}
+    private IgRpcCounterServiceClient gRpcCounterServiceClient;
 
     public CounterEffet(IgRpcCounterServiceClient server)
     {
-        gRpcCounterServiceClient=server;
+        gRpcCounterServiceClient = server;
     }
     [EffectMethod]
     public async Task ExecuteEffet(ActionInput action, IDispatcher dispatcher)
