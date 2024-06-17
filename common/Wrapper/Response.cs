@@ -1,7 +1,7 @@
 ﻿using assembly.Dto;
 using assembly.ViewModel;
 
-namespace common.Wrapper.Response;
+namespace common.Wrapper;
 
 #region Interface
 public interface IResponseBase
@@ -28,7 +28,7 @@ public abstract class ResponseBase : IResponseBase
 public abstract class ResponseBase<T_DTO> : ResponseBase
 {
     public new abstract T_DTO Result { get; }
-    
+
     protected ResponseBase()
     {
 
@@ -41,49 +41,49 @@ public abstract class ResponseBase<T_DTO> : ResponseBase
 #region ResponseWrapperBase
 public abstract class ResponseWrapperBase
 {
-	public Dictionary<MessageTypeViewModel, IEnumerable<ResultMessageViewModel>> Messages { get; set; }
+    public Dictionary<MessageTypeViewModel, IEnumerable<ResultMessageViewModel>> Messages { get; set; }
 
-	public bool IsSuccess => !HasError && !HasCriticalError;
+    public bool IsSuccess => !HasError && !HasCriticalError;
 
-	public bool HasErrorOrCriticalError => !IsSuccess;
+    public bool HasErrorOrCriticalError => !IsSuccess;
 
-	public bool HasError => Messages.Any(o => o.Key == MessageTypeViewModel.Error);
+    public bool HasError => Messages.Any(o => o.Key == MessageTypeViewModel.Error);
 
-	public bool HasCriticalError => Messages.Any(o => o.Key == MessageTypeViewModel.CriticalError);
+    public bool HasCriticalError => Messages.Any(o => o.Key == MessageTypeViewModel.CriticalError);
 
-	public IEnumerable<ResultMessageViewModel> Errors => GetMessages(MessageTypeViewModel.Error);
+    public IEnumerable<ResultMessageViewModel> Errors => GetMessages(MessageTypeViewModel.Error);
 
-	public IEnumerable<ResultMessageViewModel> CriticalErrors => GetMessages(MessageTypeViewModel.CriticalError);
+    public IEnumerable<ResultMessageViewModel> CriticalErrors => GetMessages(MessageTypeViewModel.CriticalError);
 
-	public IEnumerable<ResultMessageViewModel> GetMessages(MessageTypeViewModel type)
-	{
-		return Messages.ContainsKey(type)
-			? Messages[type]
-			: new List<ResultMessageViewModel>();
-	}
+    public IEnumerable<ResultMessageViewModel> GetMessages(MessageTypeViewModel type)
+    {
+        return Messages.ContainsKey(type)
+            ? Messages[type]
+            : new List<ResultMessageViewModel>();
+    }
 
-	public IEnumerable<ResultMessageViewModel> GetMessagesAllErrors()
-	{
-		var errors = GetMessages(MessageTypeViewModel.Error).ToList();
-		errors.AddRange(GetMessages(MessageTypeViewModel.CriticalError));
+    public IEnumerable<ResultMessageViewModel> GetMessagesAllErrors()
+    {
+        var errors = GetMessages(MessageTypeViewModel.Error).ToList();
+        errors.AddRange(GetMessages(MessageTypeViewModel.CriticalError));
 
-		return errors;
-	}
+        return errors;
+    }
 
-	public string ComputeMessages(MessageTypeViewModel messageType)
-	{
-		var messages = GetMessages(messageType).Select(o => o.Label);
-		return string.Join(Environment.NewLine, messages);
-	}
+    public string ComputeMessages(MessageTypeViewModel messageType)
+    {
+        var messages = GetMessages(messageType).Select(o => o.Label);
+        return string.Join(Environment.NewLine, messages);
+    }
 
-	public String ComputeErrorMessage()
-	{
-		var errorMessages = GetMessagesAllErrors().Select(o => o.Label);
+    public string ComputeErrorMessage()
+    {
+        var errorMessages = GetMessagesAllErrors().Select(o => o.Label);
 
-		var errorMessageComputed = string.Join(Environment.NewLine, errorMessages);
+        var errorMessageComputed = string.Join(Environment.NewLine, errorMessages);
 
-		return errorMessageComputed;
-	}
+        return errorMessageComputed;
+    }
 }
 #endregion 
 
@@ -93,9 +93,9 @@ public abstract class ResponseWrapperBase
 public class ResponseWrapperViewModel<T_VIEWMODEL> : ResponseWrapperBase
 {
     public T_VIEWMODEL Content { get; set; }
-   
+
     private ResponseWrapperViewModel(ResponseBase response)
-        
+
     {
         Content = default!;
     }

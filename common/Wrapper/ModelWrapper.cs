@@ -1,8 +1,8 @@
 ﻿using assembly.ViewModel;
-using grpc.Service;
+using grpc.Services;
+using grpc;
 
 namespace common.Wrapper.ModelWrapper;
-
 public interface IgRpcCounterServiceClient 
 {
     Task<ResponseWrapperViewModel<CounterViewModel>>DoCreate(string arg);
