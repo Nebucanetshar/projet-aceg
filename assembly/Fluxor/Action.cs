@@ -1,30 +1,30 @@
 ﻿using assembly.ViewModel;
 
-namespace assembly.fluxor.Action;
+namespace assembly.Fluxor;
 
-public class ActionOutput 
+public class ActionOutput
 {
-    public ResultResponseViewModel ?ResponseServer;
-    public CounterViewModel ?Content {get;}
+    public ResultResponseViewModel? ResponseServer;
+    public CounterViewModel? Content { get; }
 
     public ActionOutput(ResultResponseViewModel responseServer)
     {
-        ResponseServer = responseServer;   
+        ResponseServer = responseServer;
     }
     public ActionOutput(CounterViewModel content)
     {
-        Content=content;
+        Content = content;
     }
 }
 
 public class ActionInput
 {
-        public string Counter {get;set;}
+    public string Counter { get; set; }
 
-        public ActionInput(string counter)
-        {
-            Counter = counter;
-        }
+    public ActionInput(string counter)
+    {
+        Counter = counter;
+    }
 }
-    
+
 

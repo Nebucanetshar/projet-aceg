@@ -1,4 +1,4 @@
-﻿namespace assembly;
+﻿namespace assembly.ViewModel;
 
 public class CounterViewModel
 {
