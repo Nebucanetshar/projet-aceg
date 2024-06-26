@@ -1050,3 +1050,13 @@ C:\Users\user\source\VisualStudioCode\projetAceg\assembly\obj\Debug\net8.0\compr
 C:\Users\user\source\VisualStudioCode\projetAceg\assembly\obj\Debug\net8.0\compressed\q4paokecjy.gz
 C:\Users\user\source\VisualStudioCode\projetAceg\assembly\obj\Debug\net8.0\compressed\bkq7s9soqd.gz
 C:\Users\user\source\VisualStudioCode\projetAceg\assembly\obj\Debug\net8.0\compressed\3jfstrmmo5.gz
+C:\Users\user\source\VisualStudioCode\projet\projetAceg\assembly\obj\Debug\net8.0\assembly.csproj.AssemblyReference.cache
+C:\Users\user\source\VisualStudioCode\projet\projetAceg\assembly\obj\Debug\net8.0\assembly.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\VisualStudioCode\projet\projetAceg\assembly\obj\Debug\net8.0\assembly.AssemblyInfoInputs.cache
+C:\Users\user\source\VisualStudioCode\projet\projetAceg\assembly\obj\Debug\net8.0\assembly.AssemblyInfo.cs
+C:\Users\user\source\VisualStudioCode\projet\projetAceg\assembly\obj\Debug\net8.0\assembly.csproj.CoreCompileInputs.cache
+C:\Users\user\source\VisualStudioCode\projet\projetAceg\assembly\obj\Debug\net8.0\assembly.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\source\VisualStudioCode\projet\projetAceg\assembly\obj\Debug\net8.0\assembly.sourcelink.json
+C:\Users\user\source\VisualStudioCode\projet\projetAceg\assembly\obj\Debug\net8.0\assembly.dll
+C:\Users\user\source\VisualStudioCode\projet\projetAceg\assembly\obj\Debug\net8.0\refint\assembly.dll
+C:\Users\user\source\VisualStudioCode\projet\projetAceg\assembly\obj\Debug\net8.0\assembly.pdb

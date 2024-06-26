@@ -117,3 +117,6 @@ C:\Users\user\source\VisualStudioCode\projetAceg\grpc\bin\Debug\net8.0\ru\Micros
 C:\Users\user\source\VisualStudioCode\projetAceg\grpc\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\user\source\VisualStudioCode\projetAceg\grpc\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\user\source\VisualStudioCode\projetAceg\grpc\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\source\VisualStudioCode\projet\projetAceg\grpc\obj\Debug\net8.0\grpc.dll
+C:\Users\user\source\VisualStudioCode\projet\projetAceg\grpc\obj\Debug\net8.0\refint\grpc.dll
+C:\Users\user\source\VisualStudioCode\projet\projetAceg\grpc\obj\Debug\net8.0\grpc.pdb

@@ -2252,11 +2252,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\source\\visualStudioCode\\projetAceg\\assembly\\assembly.csproj",
+      "projectUniqueName": "C:\\Users\\user\\source\\VisualStudioCode\\projet\\projetAceg\\assembly\\assembly.csproj",
       "projectName": "assembly",
-      "projectPath": "C:\\Users\\user\\source\\visualStudioCode\\projetAceg\\assembly\\assembly.csproj",
+      "projectPath": "C:\\Users\\user\\source\\VisualStudioCode\\projet\\projetAceg\\assembly\\assembly.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\source\\visualStudioCode\\projetAceg\\assembly\\obj\\",
+      "outputPath": "C:\\Users\\user\\source\\VisualStudioCode\\projet\\projetAceg\\assembly\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
